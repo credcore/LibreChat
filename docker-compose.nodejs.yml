@@ -19,7 +19,7 @@ services:
     restart: always
     user: "${UID}:${GID}"
     environment:
-      - MEILI_HOST=http://meilisearch:7700
+      - MEILI_HOST=http://meilisearch:37700
       - MEILI_NO_ANALYTICS=true
       - MEILI_MASTER_KEY=${MEILI_MASTER_KEY}
     volumes:
