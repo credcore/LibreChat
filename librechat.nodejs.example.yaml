@@ -130,9 +130,8 @@ mcpServers:
     timeout: 60000 # 30‑second timeout for commands
     initTimeout: 10000 # 10‑second timeout for initialization
   meilisearch:
-    type: stdio
     command: 'uvx'
-    args":
+    args:
       - '-n'
       - 'meilisearch-mcp'
 
