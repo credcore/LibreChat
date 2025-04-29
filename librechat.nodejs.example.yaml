@@ -134,6 +134,9 @@ mcpServers:
     args:
       - '-n'
       - 'meilisearch-mcp'
+    env:
+      MEILI_HTTP_ADDR: 'http://localhost:37700'
+      MEILI_MASTER_KEY: 'DrhYf7zENyR6AlUCKmnz0eYASOQdl6zxH7s7MKFSfFCt'
 
 # mcpServers:
 #   everything:
